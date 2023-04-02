@@ -241,6 +241,7 @@ path {
 .link--icon {
   color: var(--clr-fg);
   font-size: 1.2rem;
+  height: 32px;
 }
 
 .btn {
