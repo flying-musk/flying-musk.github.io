@@ -111,6 +111,12 @@ button {
 .link:hover {
   color: var(--clr-primary);
 }
+path {
+  fill: var(--clr-fg);
+}
+.link:hover path {
+  fill: var(--clr-primary);
+}
 
 .link::before {
   content: '';
@@ -199,6 +205,11 @@ button {
   color: var(--clr-primary);
 }
 
+.btn--icon:hover path,
+.btn--icon:focus path {
+  fill: var(--clr-primary);
+}
+
 .btn--icon:active {
   transform: translateY(-5px);
 }
@@ -209,6 +220,7 @@ button {
 
 .center {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -320,7 +332,7 @@ main {
 }
 
 .project .link--icon {
-  margin-left: 0.5em;
+  margin-left: 0.6em;
 }
 
 .skills__list {
@@ -410,4 +422,8 @@ main {
   .scroll-container {
     display: none;
   }
+}
+svg {
+  width: 20px;
+  height: 28px;
 }
