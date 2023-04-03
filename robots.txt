@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://flying-musk.github.io/sitemap.xml
