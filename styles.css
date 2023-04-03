@@ -1,9 +1,11 @@
 @font-face {
   font-family: 'scoot';
+  font-display: swap;
   src: url(./font-family/scoot.woff2) format('woff2');
 }
 @font-face {
   font-family: 'scoot-bold';
+  font-display: swap;
   src: url(./font-family/scoot-bold.woff2) format('woff2');
 }
 /*===============
