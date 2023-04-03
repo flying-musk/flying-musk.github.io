@@ -239,6 +239,15 @@ path {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 26px 16px;
+}
+
+.about__contact.center {
+  margin-top: 0.8rem;
+}
+
+.contact.center {
+  gap: 0;
 }
 
 .header {
@@ -266,12 +275,7 @@ main {
 }
 
 .nav__list {
-  margin-right: 1.5em;
   display: flex;
-}
-
-.nav__list-item {
-  margin-left: 1.5em;
 }
 
 .nav__hamburger {
@@ -288,27 +292,10 @@ main {
   color: var(--clr-primary);
 }
 
-.about__role {
-  margin-top: 1.2em;
-}
-
 .about__desc {
   font-size: 1rem;
   text-align: center;
   max-width: 600px;
-}
-
-.about__desc,
-.about__contact {
-  margin-top: 2.4em;
-}
-
-.about .link--icon {
-  margin-right: 0.8em;
-}
-
-.about .btn--outline {
-  margin-right: 1em;
 }
 
 .projects__grid {
@@ -348,10 +335,6 @@ main {
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
-  margin-left: 0.6em;
-}
-
 .skills__list {
   max-width: 450px;
   width: 95%;
@@ -359,10 +342,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.skills__list-item {
-  margin: 0.5em;
+  gap: 16px;
 }
 
 .contact {
@@ -424,12 +404,15 @@ main {
 
   .nav__hamburger {
     display: flex;
-    margin-left: 0.8em;
   }
 
   .about {
     align-items: flex-start;
     margin-top: 2em;
+  }
+
+  .about__desc {
+    text-align: unset;
   }
 
   .footer {
