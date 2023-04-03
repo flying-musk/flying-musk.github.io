@@ -169,6 +169,7 @@ path {
 }
 
 .btn--outline {
+  font-family: 'scoot-bold';
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
   position: relative;
