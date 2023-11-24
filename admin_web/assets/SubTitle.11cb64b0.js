@@ -1,0 +1,1 @@
+import{o as t,q as e,C as r}from"./element-plus.4376cb67.js";const s=["textContent"],l={__name:"SubTitle",props:{title:{type:String,default:""}},setup:l=>(a,n)=>(t(),e("h3",{class:"border-l-4 border-primary-300 pl-2 text-gray-700 text-sm tracking-widest",textContent:r(l.title)},null,8,s))};export{l as _};
