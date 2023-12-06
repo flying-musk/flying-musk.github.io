@@ -1,1 +1,0 @@
-import{_ as e}from"./index.b3300bbf.js";import{o,q as s}from"./element-plus.4376cb67.js";const r={class:"home"};var a=e({},[["render",function(e,a){return o(),s("div",r,"home ")}],["__scopeId","data-v-79122060"]]);export{a as default};
