@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'scoot';
+  font-family: "scoot";
   font-display: swap;
-  src: url(./font-family/scoot.woff2) format('woff2');
+  src: url(./font-family/scoot.woff2) format("woff2");
 }
 @font-face {
-  font-family: 'scoot-bold';
+  font-family: "scoot-bold";
   font-display: swap;
-  src: url(./font-family/scoot-bold.woff2) format('woff2');
+  src: url(./font-family/scoot-bold.woff2) format("woff2");
 }
 /*===============
   global styles
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  font-family: 'scoot';
+  font-family: "scoot";
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -51,8 +51,7 @@ body {
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 ::-moz-selection {
@@ -73,7 +72,7 @@ h4,
 nav {
   line-height: 1.2;
   color: var(--clr-fg-alt);
-  font-family: 'scoot-bold';
+  font-family: "scoot-bold";
 }
 
 h1 {
@@ -134,7 +133,7 @@ path {
 }
 
 .link::before {
-  content: '';
+  content: "";
   display: inline;
   width: 0%;
   height: 0.2em;
@@ -171,7 +170,7 @@ path {
 }
 
 .btn--outline {
-  font-family: 'scoot-bold';
+  font-family: "scoot-bold";
   color: var(--clr-primary);
   border: 2px solid var(--clr-primary);
   position: relative;
@@ -185,7 +184,7 @@ path {
 }
 
 .btn--outline:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--clr-primary);
   right: 100%;
@@ -308,10 +307,12 @@ main {
 }
 
 .project {
-  padding: 2em;
+  padding: 32px;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  display: grid;
+  gap: 12px;
 }
 
 .project:hover {
@@ -326,7 +327,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 1.2em 0;
 }
 
 .project__stack-item {
@@ -359,7 +359,7 @@ main {
 .footer__link {
   font-size: 0.9rem;
   font-weight: 700;
-  font-family: 'scoot-bold';
+  font-family: "scoot-bold";
   color: var(--clr-fg);
 }
 
